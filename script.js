@@ -1,6 +1,6 @@
 function checkPassword() {
     const password = document.getElementById("password").value;
-    const correctPassword = "I love you miu"; // Change this to your own password
+    const correctPassword = "ourweddingsong"; // Change this to your own password
 
     if (password === correctPassword) {
         document.getElementById("login").style.display = "none";
