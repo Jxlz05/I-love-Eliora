@@ -5,6 +5,8 @@ function checkPassword() {
     if (password === correctPassword) {
         document.getElementById("login").style.display = "none";
         document.getElementById("message").style.display = "block";
+        var music = document.getElementById("wedding song");
+        music.play();
     } else {
         alert("Oopsies, try again sweetheart!");
     }
