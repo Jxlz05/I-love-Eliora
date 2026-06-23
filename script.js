@@ -5,8 +5,9 @@ function checkPassword() {
     if (password === correctPassword) {
         document.getElementById("login").style.display = "none";
         document.getElementById("message").style.display = "block";
-        var music = document.getElementById("Rachmaninoff - Piano Concerto 2 (Best Part) compressed.mp3");
-        music.play();
+       var music = document.getElementById("music");
+console.log(music);
+music.play();
     } else {
         alert("Oopsies, try again sweetheart!");
     }
